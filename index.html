@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase.js"></script>
+</head>
+
+<body style="background: darkseagreen;">
+    <h2>
+        Добро пожаловать на авторизованую страницу
+        <button onclick="mainApp.logOut()"> Logout </button>
+    </h2>
+
+
+    <li><a href="chatPage.html">Cтраница для ввода данных авторизованным пользотвателям</a>
+    <li><a href="chatPageWithourAutorization.html" target="_blank">Страница для не авторизованных пользотвателей</a>
+        <br>
+
+
+
+        <script src="firebase.js"></script>
+        <script src="main.js"></script>
+
+        <h6>PS: <a href="https://codelabs.developers.google.com/codelabs/firebase-web/?authuser=0#3">Тут мастер класс от firebase</a></h6>
+</body>
+
+</html>
