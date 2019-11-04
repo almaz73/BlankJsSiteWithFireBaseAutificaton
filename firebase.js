@@ -11,8 +11,5 @@ var app_firebase = {};
     };
     
     firebase.initializeApp(firebaseConfig);
-
-    app_firebase = firebase
-
-    console.log("%c # ","background: orange", "app_firebase=", app_firebase )
+    app_firebase = firebase;
 })()
